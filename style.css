@@ -146,13 +146,13 @@ input[type = "checkbox"]:checked::after{
     margin-bottom: 20px;
     margin-left: 220px;
 }
-.inb{
+.ibt{
     width: 100px;
     height: 25px;
     cursor: pointer;
 }
 
-.inb{
+.ibt{
     font-size: 17px;
     font-family: "Roboto", sans-serif;
     margin-top:-95px;

@@ -9,23 +9,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <title>Bug/Report</title>
+  <script src="index.js"></script>
 </head>
      
 <body>
     <div id="form">
         <div class="input">
             <span class="inputTitle">Nome e cognome</span>
-            <input type="text" id="inputName" placeholder="Mario Rossi"
+            <input type="text" id="nome" placeholder="Mario Rossi"
         </div> 
 
         <div class="input">
            <span class="inputTitle">Nome Discord</span>
-           <input type="text" id="inputName" placeholder="MariuccioRossi#1420"
+           <input type="text" id="nomeds" placeholder="MariuccioRossi#1420"
        </div> 
 
        <div class="input">
            <span class="inputTitle">Email</span>
-           <input type="text" id="inputName" placeholder="mariorossi@gmail.com"
+           <input type="text" id="email" placeholder="mariorossi@gmail.com"
        </div>
 
 
@@ -45,7 +46,7 @@
        <div class="input">
            <span class="inputTitle">Tipo di segnalazione</span>
 
-           <select name="bug/report" id="inputCountry">
+           <select name="bug/report" id="inputreport">
              <option value="Bug">Bug</option>
              <option value="report">Report</option>
            </select>
@@ -80,10 +81,10 @@
        </div>
        
        <div class="input">
-        <div class="inputDiv">
-             <button class="inb" onclick="alert('Hai inviato il modulo')"> Invia</button>
+            <div class="inputDiv">
+                 <button class="ibt" onclick="invio()">Invia</button>
+            </div>
         </div>
-    </div>
 
     </div>
 
